@@ -34,7 +34,7 @@
         <h1>Add an entry</h1>
         <form method="post" th:action="@{saveEdit}">
 
-<!--            <input type="hidden" th:field="*{id}" />-->
+            <input type="hidden" name="accountId" th:value="${accountId}" />
 
             <div class="mt-2">
                 <!--                Text input-->

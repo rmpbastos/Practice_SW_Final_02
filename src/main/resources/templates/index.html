@@ -80,13 +80,13 @@
                     </td>
 
                     <td>
-                        <a class="btn btn-warning text-white" onClick="return confirm('Are you sure you want to delete the record ?')" th:href="@{delete(id=${p.id})}">
+                        <a class="btn btn-warning text-white" onClick="return confirm('Are you sure you want to delete the record?')" th:href="@{delete(id=${p.id})}">
                             Delete</a>
                     </td>
 
 
                     <td>
-                        <a class="btn btn-primary">
+                        <a class="btn btn-primary" th:href="@{/projectedInvestment(id=${p.id})}">
                             Projected Investment</a>
                     </td>
 
